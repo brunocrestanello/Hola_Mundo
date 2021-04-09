@@ -1,0 +1,36 @@
+#COMANDOS 
+
+2.1 - > mkdir Hola-Mundo
+      > git init
+
+2.2 - > Cree un archivo "README.md" desde VSC
+
+2.3 - > git commit -m Commit inicial
+
+2.4 - > Cree el repositorio remoto en el navegador
+
+2.5 - > git remote add origin https://github.com/brunocrestanello/Hola_Mundo.git
+      > git pull origin main --allow-unrelated-histories
+      > git branch --set-upstream-to=origin/main master
+
+2.6 - > git push origin HEAD:main
+
+2.7 - > Borre el repositorio local desde el ordenador
+
+2.8 - > git clone https://github.com/brunocrestanello/Hola_Mundo.git
+
+2.9 - > git branch dev
+      > git checkout dev
+
+2.10 -> Modifique el archivo "README.md" con VSC 
+
+2.11 -> git commit -m Cambios en la rama
+
+2.12 -> git push
+
+2.13 -> #Me paro en la rama master
+      > git merge dev
+      > git push
+
+2.14 -> git branch -d dev
+
